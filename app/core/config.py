@@ -8,7 +8,8 @@ class Settings(BaseSettings):
     APP_NAME: str = "Tech Genius API"
     APP_ENV: str = "development"
 
-    DATABASE_URL: str = "postgresql://postgres.bjecaymebcexkafucldl:Ektuhinirankar%40123@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+   
+DATABASE_URL: str = "postgresql+psycopg://postgres.bjecaymebcexkafucldl:YOUR_PASSWORD@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
 
     JWT_SECRET_KEY: str = "CHANGE_ME"
     JWT_ALGORITHM: str = "HS256"
