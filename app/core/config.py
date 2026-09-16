@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REFRESH_TOKEN_EXPIRE_DAYS: int = 30
 
-    CORS_ORIGINS: str = "http://localhost:5173"
+    CORS_ORIGINS: str = "*"
 
     PROFILE_VIEW_DEDUP_MINUTES: int = 60
 
